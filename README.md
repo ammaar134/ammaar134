@@ -88,10 +88,7 @@ Very interested in tech since I was young, and recently, I really love exploring
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0D1117,100:00F7FF&height=120&section=footer" width="100%" />
 
 ```txt
-"Most people have dreams.
-Some turn them into plans.
-Some act on those plans.
-Very few stay consistent long enough to succeed."
+"Most people have dreams. Some turn them into plans. Some act on those plans. Very few stay consistent long enough to succeed."
 ```
 
 <img src="https://komarev.com/ghpvc/?username=ammaar134&style=for-the-badge&color=0e75b6" />

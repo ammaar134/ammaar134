@@ -2,7 +2,7 @@
 
 <div align="center">
 
-<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=500&size=22&duration=3000&pause=1000&color=00F7FF&center=true&vCenter=true&width=700&lines=Building+focused+digital+systems;Firmware+%E2%86%92+AI+%E2%86%92+Open+Source;Turning+ideas+into+products;Creating+tools+with+intent" alt="Typing SVG" />
+<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=500&size=22&duration=3000&pause=1000&color=00F7FF&center=true&vCenter=true&width=700&lines=Building+focused+digital+systems;Firmware+%E2%86%92+AI+%E2%86%92+Result;Turning+ideas+into+products;Praise+be+to+God" alt="Typing SVG" />
 
 </div>
 

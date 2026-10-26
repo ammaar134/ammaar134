@@ -2,12 +2,12 @@
 
 **I build and ship software: mobile apps, web platforms and tools that solve everyday problems.**
 
-I'm a software developer with a computer systems engineering background, based in Auckland, New Zealand. From interfaces and cloud services to embedded devices, I enjoy turning ideas into working products. I'm also exploring practical AI integrations and automation.
+I'm a software developer with a computer systems engineering background, based in Auckland, New Zealand. From interfaces and cloud services to embedded devices, I enjoy turning ideas into working products. I use LLMs and generative AI in my development workflow to build faster, explore ideas and work through problems.
 
-<p>
-<a href="#what-i-work-with"><img src="assets/pillars/software.svg" width="250" height="86" alt="Software: web, mobile and products" /></a>
-<a href="#what-i-work-with"><img src="assets/pillars/systems.svg" width="250" height="86" alt="Firmware and systems: devices, data and control" /></a>
-<a href="#what-i-work-with"><img src="assets/pillars/ai.svg" width="250" height="86" alt="AI: integration and automation" /></a>
+<p align="center">
+<a href="#what-i-work-with"><img src="assets/pillars/software.svg" width="250" height="86" alt="Software: web, mobile and products" /></a> &nbsp;&nbsp;
+<a href="#what-i-work-with"><img src="assets/pillars/systems.svg" width="250" height="86" alt="Firmware and systems: devices, data and control" /></a> &nbsp;&nbsp;
+<a href="#what-i-work-with"><img src="assets/pillars/ai.svg" width="250" height="86" alt="AI: AI-assisted development" /></a>
 </p>
 
 [Selected work](#selected-work) · [Technology & experience](#what-i-work-with) · [Connect on LinkedIn](https://www.linkedin.com/in/ammaar-marzook-nz/)
@@ -20,7 +20,7 @@ A few things I've built. **Start with the lab**, or explore whichever catches yo
 <tr>
 <td width="50%" valign="top">
 <h3>Remote Experiment<br />Control Lab</h3>
-<a href="https://github.com/ammaar134/Remote-Expriment-Control-Lab/blob/main/docs/WALKTHROUGH.md"><img src="assets/lab-monitor.jpg" width="420" alt="Lab monitor showing live measurement charts and recording status during a simulated experiment" /></a>
+<a href="https://github.com/ammaar134/Remote-Expriment-Control-Lab/blob/main/docs/WALKTHROUGH.md"><img src="assets/previews/lab.svg" width="420" alt="Lab monitor showing live measurement charts and recording status during a simulated experiment" /></a>
 <p>Configure simulated experiments, watch measurements live and replay saved results.</p>
 <p><sub>React · TypeScript · Python / FastAPI<br />C++ simulation engines · PostgreSQL</sub></p>
 <p><a href="https://github.com/ammaar134/Remote-Expriment-Control-Lab/blob/main/docs/WALKTHROUGH.md"><strong>Take a tour ↗</strong></a> · <a href="https://github.com/ammaar134/Remote-Expriment-Control-Lab">Source</a></p>
@@ -28,7 +28,7 @@ A few things I've built. **Start with the lab**, or explore whichever catches yo
 </td>
 <td width="50%" valign="top">
 <h3>Fieldroom<br />Equipment lending</h3>
-<a href="https://github.com/ammaar134/Live-Event-Operations/blob/main/docs/CASE-STUDY.md"><img src="assets/fieldroom-catalog.png" width="420" alt="Fieldroom equipment catalog with availability, categories and booking options" /></a>
+<a href="https://github.com/ammaar134/Live-Event-Operations/blob/main/docs/CASE-STUDY.md"><img src="assets/previews/fieldroom.svg" width="420" alt="Fieldroom equipment catalog with availability, categories and booking options" /></a>
 <p>Help a club book, lend and maintain shared equipment without double bookings.</p>
 <p><sub>React · TypeScript · C# / ASP.NET Core<br />Identity · EF Core · PostgreSQL</sub></p>
 <p><a href="https://github.com/ammaar134/Live-Event-Operations/blob/main/docs/CASE-STUDY.md"><strong>Explore the app ↗</strong></a> · <a href="https://github.com/ammaar134/Live-Event-Operations">Source</a></p>
@@ -38,8 +38,8 @@ A few things I've built. **Start with the lab**, or explore whichever catches yo
 <tr>
 <td width="50%" valign="top">
 <h3>EduFeed<br />A more focused YouTube</h3>
-<a href="https://chromewebstore.google.com/detail/edufeed-%E2%80%93-productive-yout/cpppgdcmmigbddkhaaifjfmogcppoknd"><img src="assets/edufeed-focus.jpg" width="420" alt="EduFeed extension on YouTube with educational mode selected and educational videos in the feed" /></a>
-<p>Replace recommendations with subscriptions or educational content, so viewers can stay focused.</p>
+<a href="https://chromewebstore.google.com/detail/edufeed-%E2%80%93-productive-yout/cpppgdcmmigbddkhaaifjfmogcppoknd"><img src="assets/previews/edufeed.svg" width="420" alt="EduFeed extension on YouTube with educational mode selected and educational videos in the feed" /></a>
+<p>Swap suggested videos for subscriptions or educational content to stay focused.</p>
 <p><sub>JavaScript · HTML / CSS · Manifest V3</sub></p>
 <p><a href="https://chromewebstore.google.com/detail/edufeed-%E2%80%93-productive-yout/cpppgdcmmigbddkhaaifjfmogcppoknd"><strong>Install for Chrome ↗</strong></a> · <a href="https://github.com/ammaar134/edufeed">Source</a></p>
 <sub><a href="https://github.com/ammaar134/edufeed#the-three-modes">Explore the focus modes</a></sub>
@@ -129,17 +129,24 @@ Unit testing · API integration · debugging · CI workflows
 </details>
 
 <details>
-<summary><strong>Firmware, systems & practical AI</strong></summary>
+<summary><strong>Firmware & systems</strong></summary>
 
-<p><img src="assets/icons/c.svg" width="34" height="34" alt="C" title="C" /> &nbsp; <img src="assets/icons/cplusplus.svg" width="34" height="34" alt="C++" title="C++" /> &nbsp; <img src="assets/icons/python.svg" width="34" height="34" alt="Python" title="Python" /> &nbsp; <img src="assets/icons/raspberrypi.svg" width="34" height="34" alt="Raspberry Pi" title="Raspberry Pi" /></p>
+<p><img src="assets/icons/c.svg" width="34" height="34" alt="C" /> &nbsp; <img src="assets/icons/cplusplus.svg" width="34" height="34" alt="C++" /> &nbsp; <img src="assets/icons/python.svg" width="34" height="34" alt="Python" /> &nbsp; <img src="assets/icons/raspberrypi.svg" width="34" height="34" alt="Raspberry Pi" /></p>
 
-**Embedded:** C / C++ · Raspberry Pi Pico W · PSoC 5 / PSoC Creator · GPIO / ADC · sensors · serial / Bluetooth · PCB work · LTspice
+C / C++ · Raspberry Pi Pico W · PSoC 5 / PSoC Creator · GPIO / ADC · sensors · UART / serial · Bluetooth · PCB work · LTspice
 
-**AI & automation:** LLM API integration · OpenAI API · n8n
+Hands-on experience through engineering coursework and device projects. The featured lab demonstrates simulation software.
 
-**Development assistants:** Claude Code · Codex · GitHub Copilot · Cursor · ChatGPT
+</details>
 
-My embedded experience includes engineering coursework and device projects. The featured lab is a simulator. My AI work focuses on using models in applications and workflows; model training is an area to explore.
+<details>
+<summary><strong>AI-assisted development</strong></summary>
+
+<p><img src="assets/icons/claudecode.svg" width="38" height="38" alt="Claude Code" title="Claude Code" /> &nbsp; <img src="assets/icons/codex.webp" width="38" height="38" alt="Codex" title="Codex" /> &nbsp; <img src="assets/icons/githubcopilot.svg" width="38" height="38" alt="GitHub Copilot" title="GitHub Copilot" /> &nbsp; <img src="assets/icons/openai.webp" width="38" height="38" alt="ChatGPT" title="ChatGPT" /> &nbsp; <img src="assets/icons/n8n.svg" width="38" height="38" alt="n8n" title="n8n" /></p>
+
+Claude Code · Codex · GitHub Copilot · ChatGPT · Cursor · n8n
+
+I work with LLMs and generative AI to accelerate development, from exploring an approach to writing and debugging code. AI-assisted development is part of how I work.
 
 </details>
 
@@ -147,4 +154,4 @@ My embedded experience includes engineering coursework and device projects. The 
 
 For my broader experience, project history or a conversation: **[find me on LinkedIn ↗](https://www.linkedin.com/in/ammaar-marzook-nz/)**
 
-<sub>Praise be to God.</sub>
+> "Most people have dreams. Some turn them into plans. Some act on those plans. Very few stay consistent long enough to succeed."

@@ -1,6 +1,6 @@
 # Profile revision review
 
-The introduction returns to a personal, confident tone. Three restrained cyan panels establish software, firmware/systems and AI. A two-by-two showcase keeps project benefits visible, with architecture and reliability evidence in one optional dropdown. Technology groups cover experience beyond the showcased repositories. Faith wording is preserved.
+This revision describes AI as AI-assisted development with LLMs and generative AI. Firmware has its own section. The centered identity panels have consistent spacing; project previews share an equal aspect ratio without cropping or stretching the original screenshots. The author’s original quote is restored verbatim.
 
 ## Rendered previews
 
@@ -12,7 +12,7 @@ These are actual local renders of GitHub's Markdown API output with github-markd
 
 - [x] GitHub Markdown API accepted the README, tables, details and image attributes.
 - [x] Rendered at 1040px, 390px and 320px in light and dark themes.
-- [x] No page or card-table horizontal overflow, including with all dropdowns open.
+- [x] No page or card-table horizontal overflow, including with all dropdowns open. Project preview dimensions match within each viewport.
 - [x] All local images loaded; every image has alt text or is explicitly decorative.
 - [x] Dropdown keyboard activation tested.
 - [x] All 19 unique GitHub/Chrome Store destinations returned HTTP 200.
@@ -22,7 +22,7 @@ These are actual local renders of GitHub's Markdown API output with github-markd
 
 ## Suggested profile metadata (not applied)
 
-Bio: Software developer with a computer systems engineering background. Building web and mobile apps, exploring embedded systems and practical AI. Auckland, NZ.
+Bio: Software developer with a computer systems engineering background. Building web and mobile apps, embedded systems and AI-assisted development. Auckland, NZ.
 
 Pin order: Remote Experiment Control Lab → Fieldroom → EduFeed. Three strong projects are sufficient.
 
@@ -40,41 +40,22 @@ EduFeed has a verified Chrome Web Store listing, so the profile includes an inst
 
 The EduFeed showcase uses the user's original LinkedIn image, Edufeed pic 1. It shows the extension in context; the other visible image was the options page.
 
-The broader technology list reflects user-confirmed experience and existing profile/project history. It does not imply equal proficiency or that every technology appears in these three repositories. AI API integration and development assistants are separated.
+The broader technology list reflects user-confirmed experience and existing profile/project history. It does not imply equal proficiency or that every technology appears in these three repositories. AI tools are presented as development aids, without claims of model training or AI product delivery.
 
 ## Exact files changed in this revision
 
 - README.md
 - assets/PROVENANCE.txt
-- assets/edufeed-focus.jpg
-- assets/icons/amazonwebservices.svg
-- assets/icons/androidstudio.svg
-- assets/icons/angular.svg
-- assets/icons/c.svg
-- assets/icons/css3.svg
-- assets/icons/dart.svg
-- assets/icons/figma.svg
-- assets/icons/firebase.svg
-- assets/icons/flutter.svg
-- assets/icons/git.svg
-- assets/icons/githubactions.svg
-- assets/icons/googlecloud.svg
-- assets/icons/html5.svg
-- assets/icons/java.svg
-- assets/icons/jira.svg
-- assets/icons/linux.svg
-- assets/icons/php.svg
-- assets/icons/playwright.svg
-- assets/icons/raspberrypi.svg
-- assets/icons/supabase.svg
-- assets/icons/vscode.svg
-- assets/icons/vuejs.svg
-- assets/more-to-come.svg
-- assets/pillars/LICENSE
+- assets/icons/LOBE-LICENSE
+- assets/icons/claudecode.svg
+- assets/icons/codex.webp
+- assets/icons/githubcopilot.svg
+- assets/icons/n8n.svg
+- assets/icons/openai.webp
 - assets/pillars/ai.svg
-- assets/pillars/software.svg
-- assets/pillars/systems.svg
-- assets/signal.svg (removed)
+- assets/previews/edufeed.svg
+- assets/previews/fieldroom.svg
+- assets/previews/lab.svg
 - docs/preview-before.png
 - docs/preview-desktop.png
 - docs/preview-mobile.png

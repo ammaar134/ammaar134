@@ -25,3 +25,10 @@ Technology names also appear as normal README text.
 
 EduFeed
 No product image was created or substituted for its missing demo.
+
+Revision 2, 2026-10-26
+EduFeed: original JPEG downloaded using Save image as from the user-opened LinkedIn Projects media viewer, titled Edufeed pic 1. Public profile: https://www.linkedin.com/in/ammaar-marzook-nz/ . No browser chrome, messages or screenshot edits included.
+Pillars: custom SVG layouts incorporating Lucide code-xml, cpu and brain-circuit icon paths. Source: https://github.com/lucide-icons/lucide ; license in pillars/LICENSE.
+More-to-come: original decorative SVG geometry.
+Additional technology icons: unchanged original SVGs from https://github.com/devicons/devicon/tree/master/icons ; license in icons/LICENSE. Product names and marks belong to their owners.
+Preview images: local render of GitHub Markdown API output using github-markdown-css, light and dark themes. This approximates the README content area, not the entire GitHub site.

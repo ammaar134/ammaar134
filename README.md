@@ -1,96 +1,113 @@
-# <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="28"> Hey, I'm Ammaar
+# Hi, I'm Ammaar
 
-<div align="center">
+I build software that makes complex tasks easier to manage, from running simulated experiments to sharing equipment and staying focused online.
 
-<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=500&size=22&duration=3000&pause=1000&color=00F7FF&center=true&vCenter=true&width=700&lines=Building+focused+digital+systems;Firmware+%E2%86%92+AI+%E2%86%92+Result;Turning+ideas+into+products;Praise+be+to+God" alt="Typing SVG" />
+**Software · Firmware & systems · AI**  
+Auckland, New Zealand
 
-</div>
+<img src="assets/signal.svg" width="640" height="18" alt="" />
 
----
+## Selected work
 
-## /About_Me
+Start with the [Remote Experiment Control Lab walkthrough](https://github.com/ammaar134/Remote-Expriment-Control-Lab/blob/main/docs/WALKTHROUGH.md) for a tour of the interface and the engineering behind it.
 
-Very interested in tech since I was young, and recently, I really love exploring AI and the different AI tools and changes being made.
+### 01 / Remote Experiment Control Lab
 
----
+An experiment console for configuring simulated experiments, watching measurements live and replaying saved results.
 
-## /Tech_Stack
+[![Live experiment monitor showing raw and filtered measurements, committed samples and recording diagnostics](assets/lab-monitor.jpg)](https://github.com/ammaar134/Remote-Expriment-Control-Lab/blob/main/docs/WALKTHROUGH.md)
 
-<div align="center">
+Repeatable simulations use a fixed seed and logical time steps. Stop waits for the engine's confirmation; saved-data replay sends no control commands.
 
-<img src="https://skillicons.dev/icons?i=flutter,dart,python,c,java,js,ts,react,firebase,supabase,vscode" />
+<sub>React / TypeScript · Python / FastAPI · C++ simulation engines · PostgreSQL</sub>
 
-</div>
+[View source](https://github.com/ammaar134/Remote-Expriment-Control-Lab) · [Walkthrough](https://github.com/ammaar134/Remote-Expriment-Control-Lab/blob/main/docs/WALKTHROUGH.md) · [Architecture](https://github.com/ammaar134/Remote-Expriment-Control-Lab/blob/main/docs/ARCHITECTURE.md)
 
-<div align="center">
+<sub>Simulator only. No physical hardware or hard real-time guarantees. The hosted app requires operator access; the screenshot and walkthrough are public.</sub>
 
-<img src="https://img.shields.io/badge/Flutter-Mobile%20Development-0D1117?style=for-the-badge&logo=flutter&logoColor=00F7FF" />
-<img src="https://img.shields.io/badge/React-Frontend%20Engineering-0D1117?style=for-the-badge&logo=react&logoColor=61DAFB" />
-<img src="https://img.shields.io/badge/Python-Automation%20%26%20AI-0D1117?style=for-the-badge&logo=python&logoColor=FFD43B" />
-<img src="https://img.shields.io/badge/C-Firmware%20%26%20Embedded-0D1117?style=for-the-badge&logo=c&logoColor=A8B9CC" />
+<details>
+<summary>Engineering notes: retries, recording and fault handling</summary>
 
-</div>
+Command retries preserve the same ID and payload. A bounded cache returns the previous response and rejects conflicting reuse. The engine sets simulated output to zero on Stop or fault; this is not a hardware emergency stop.
 
-<br>
+Recording is tracked separately from execution. Samples are acknowledged after database commit, and missing evidence remains explicit after a restart. Replay reads saved observations rather than running the simulation again.
 
-<table align="center">
-<tr>
-<td valign="top" width="33%">
+[Command path](https://github.com/ammaar134/Remote-Expriment-Control-Lab/blob/main/backend/lab/instrument.py) · [C++ engine tests](https://github.com/ammaar134/Remote-Expriment-Control-Lab/blob/main/instrument/tests/engine_test.cpp) · [Reliability checks](https://github.com/ammaar134/Remote-Expriment-Control-Lab/blob/main/docs/TESTING.md) · [CI runs](https://github.com/ammaar134/Remote-Expriment-Control-Lab/actions/workflows/ci.yml)
 
-### ⚡ Systems
+</details>
 
-* Embedded Systems
-* Firmware Development
-* Microcontrollers
-* UART Communication
-* Hardware Integration
-* PCB/Sensor Work
+### 02 / Fieldroom
 
-</td>
-<td valign="top" width="33%">
+An equipment-lending app that helps a club manage bookings, pickup, returns and maintenance without promising the same item to two people.
 
-### 🚀 Development
+[![Fieldroom equipment catalog with camera, tool and outdoor categories, search and availability filters](assets/fieldroom-catalog.png)](https://github.com/ammaar134/Live-Event-Operations/blob/main/docs/CASE-STUDY.md)
 
-* Flutter & React
-* TypeScript & JavaScript
-* Firebase & Supabase
-* React Native
-* API Integration
-* Open Source Tooling
+Overlapping reservations are rejected by the database. Booking changes and their audit history are saved together, so staff can trace what happened.
 
-</td>
-<td valign="top" width="33%">
+<sub>React / TypeScript · C# / ASP.NET Core Identity · EF Core · PostgreSQL</sub>
 
-### 🤖 AI Workflow
+[View source](https://github.com/ammaar134/Live-Event-Operations) · [Case study](https://github.com/ammaar134/Live-Event-Operations/blob/main/docs/CASE-STUDY.md) · [Local walkthrough](https://github.com/ammaar134/Live-Event-Operations#walkthrough)
 
-* Claude Code
-* Cursor
-* ChatGPT Codex
-* AI-Assisted Development
-* Rapid Prototyping
-* Product Iteration
+<sub>Portfolio application for a fictional club. Runs locally; no commercial deployment is claimed.</sub>
 
-</td>
-</tr>
-</table>
+<details>
+<summary>Engineering notes: booking conflicts and retry safety</summary>
 
-<div align="center">
+A PostgreSQL exclusion constraint guards against overlapping occupancy, including maintenance and turnaround time. Row locks serialize competing changes; expiry uses database time sampled after the lock is acquired.
 
-<img src="https://github-profile-trophy.vercel.app/?username=ammaar134&theme=algolia&no-frame=true&no-bg=true&margin-w=8&row=1" />
+Each allocation change commits its audit event and retry outcome in the same transaction. Failed rescheduling preserves the original reservation. Tests race separate database connections and check that direct SQL cannot bypass the overlap guard.
 
-</div>
+[Allocation service](https://github.com/ammaar134/Live-Event-Operations/blob/main/src/Api/Features/AllocationService.cs) · [Concurrency tests](https://github.com/ammaar134/Live-Event-Operations/blob/main/tests/Api.Tests/ConcurrencyTests.cs) · [Architecture](https://github.com/ammaar134/Live-Event-Operations/blob/main/docs/ARCHITECTURE.md) · [CI runs](https://github.com/ammaar134/Live-Event-Operations/actions/workflows/verify.yml)
 
----
+</details>
 
+### 03 / EduFeed
 
-<div align="center">
+A YouTube focus extension for people who want their homepage to show subscriptions or selected educational content instead of algorithmic recommendations.
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0D1117,100:00F7FF&height=120&section=footer" width="100%" />
+Switch between focus modes and filter distractions such as Shorts. Preferences stay in the browser's local storage.
 
-```txt
-"Most people have dreams. Some turn them into plans. Some act on those plans. Very few stay consistent long enough to succeed."
-```
+<sub>JavaScript · HTML / CSS · Chrome Manifest V3</sub>
 
-<img src="https://komarev.com/ghpvc/?username=ammaar134&style=for-the-badge&color=0e75b6" />
+[Install from the Chrome Web Store](https://chromewebstore.google.com/detail/edufeed-%E2%80%93-productive-yout/cpppgdcmmigbddkhaaifjfmogcppoknd) · [View source](https://github.com/ammaar134/edufeed) · [Modes and features](https://github.com/ammaar134/edufeed#the-three-modes)
 
-</div>
+<details>
+<summary>Engineering notes: browser integration and current limits</summary>
+
+The content scripts handle YouTube's in-page navigation and changing DOM. Feed loading distinguishes signed-out, network and parsing failures. Settings use <code>chrome.storage.local</code>; the manifest limits host access to YouTube.
+
+The store listing is available, but the public repository still has stale release wording and missing demo/icon assets. YouTube layout changes can affect the extension. A store package-to-source comparison has not been established here.
+
+[Feed replacement](https://github.com/ammaar134/edufeed/blob/main/src/content/feed-replacer.js) · [Manifest](https://github.com/ammaar134/edufeed/blob/main/manifest.json) · [Utility tests](https://github.com/ammaar134/edufeed/blob/main/test/utils.test.js)
+
+</details>
+
+## What I work with
+
+Languages used in the projects above: TypeScript, JavaScript, Python, C++ and C#.
+
+<p>
+  <img src="assets/icons/typescript.svg" width="32" height="32" alt="TypeScript" />&nbsp;
+  <img src="assets/icons/javascript.svg" width="32" height="32" alt="JavaScript" />&nbsp;
+  <img src="assets/icons/python.svg" width="32" height="32" alt="Python" />&nbsp;
+  <img src="assets/icons/cplusplus.svg" width="32" height="32" alt="C++" />&nbsp;
+  <img src="assets/icons/csharp.svg" width="32" height="32" alt="C#" />
+</p>
+
+Application stack: React, FastAPI, .NET and PostgreSQL. Docker supports reproducible local environments.
+
+<p>
+  <img src="assets/icons/react.svg" width="32" height="32" alt="React" />&nbsp;
+  <img src="assets/icons/fastapi.svg" width="32" height="32" alt="FastAPI" />&nbsp;
+  <img src="assets/icons/dotnetcore.svg" width="32" height="32" alt=".NET" />&nbsp;
+  <img src="assets/icons/postgresql.svg" width="32" height="32" alt="PostgreSQL" />&nbsp;
+  <img src="assets/icons/docker.svg" width="32" height="32" alt="Docker" />
+</p>
+
+My background also includes embedded development and hardware integration. The public systems example here is simulation software. AI is an active learning area, including AI-assisted development; these projects do not claim model training or deployment.
+
+## Explore further
+
+For an engineering conversation, start with the [lab walkthrough](https://github.com/ammaar134/Remote-Expriment-Control-Lab/blob/main/docs/WALKTHROUGH.md) or [Fieldroom case study](https://github.com/ammaar134/Live-Event-Operations/blob/main/docs/CASE-STUDY.md).
+
+<sub>Praise be to God.</sub>

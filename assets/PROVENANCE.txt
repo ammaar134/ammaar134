@@ -1,0 +1,27 @@
+Asset provenance, reviewed 26 October 2026 (Pacific/Auckland)
+
+lab-monitor.jpg
+Copied without modification from ammaar134/Remote-Expriment-Control-Lab,
+commit e6f6bf14ba64bbc7697b2b4d1261139f34324b62,
+docs/screenshots/monitor-live.jpg.
+This is an existing capture of the simulator. No new experiment was run.
+
+fieldroom-catalog.png
+Copied without modification from ammaar134/Live-Event-Operations,
+commit 0588656a9e18174003c1e67645bc20336b45920d,
+docs/screenshots/catalog-overview.png.
+This is an existing capture of the fictional-club portfolio application.
+
+signal.svg
+Original decorative cyan rule made for this profile. Carries no essential text.
+The empty alt attribute intentionally marks it as decorative.
+
+icons/*.svg
+Devicon originals downloaded from https://github.com/devicons/devicon/tree/master/icons
+on 26 October 2026. MIT license retained at icons/LICENSE.
+TypeScript, JavaScript, Python, C++, C#, React, FastAPI, .NET, PostgreSQL, Docker.
+These are vendored files, so no runtime icon service is needed.
+Technology names also appear as normal README text.
+
+EduFeed
+No product image was created or substituted for its missing demo.

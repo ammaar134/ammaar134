@@ -1,6 +1,6 @@
 # Profile revision review
 
-This revision describes AI as AI-assisted development with LLMs and generative AI. Firmware has its own section. The centered identity panels have consistent spacing; project previews share an equal aspect ratio without cropping or stretching the original screenshots. The author’s original quote is restored verbatim.
+This revision puts all 22 user-selected core technologies above the projects, with recognisable icons and explicit labels that stay together when the layout wraps. A direct link leads to the full toolkit. The detailed technology categories are visible headings, with no disclosure controls hiding experience. The optional project engineering notes remain collapsible. Existing project cards, introduction and personal quote are preserved.
 
 ## Rendered previews
 
@@ -12,9 +12,9 @@ These are actual local renders of GitHub's Markdown API output with github-markd
 
 - [x] GitHub Markdown API accepted the README, tables, details and image attributes.
 - [x] Rendered at 1040px, 390px and 320px in light and dark themes.
-- [x] No page or card-table horizontal overflow, including with all dropdowns open. Project preview dimensions match within each viewport.
+- [x] No page or card-table horizontal overflow at any tested width. All core-toolkit labels remain attached to their icons.
 - [x] All local images loaded; every image has alt text or is explicitly decorative.
-- [x] Dropdown keyboard activation tested.
+- [x] All six detailed technology categories are visible without opening dropdowns. The project engineering disclosure is retained.
 - [x] All 19 unique GitHub/Chrome Store destinations returned HTTP 200.
 - [x] LinkedIn profile and EduFeed media verified in the user's local browser; automated requests return LinkedIn's 999 response.
 - [x] Genuine project images; no generated product screenshots or exposed credentials.
@@ -46,16 +46,28 @@ The broader technology list reflects user-confirmed experience and existing prof
 
 - README.md
 - assets/PROVENANCE.txt
-- assets/icons/LOBE-LICENSE
-- assets/icons/claudecode.svg
-- assets/icons/codex.webp
-- assets/icons/githubcopilot.svg
-- assets/icons/n8n.svg
-- assets/icons/openai.webp
-- assets/pillars/ai.svg
-- assets/previews/edufeed.svg
-- assets/previews/fieldroom.svg
-- assets/previews/lab.svg
+- assets/toolkit/aws.svg
+- assets/toolkit/c.svg
+- assets/toolkit/claude-code.svg
+- assets/toolkit/codex.svg
+- assets/toolkit/cplusplus.svg
+- assets/toolkit/css.svg
+- assets/toolkit/dart.svg
+- assets/toolkit/docker.svg
+- assets/toolkit/firebase.svg
+- assets/toolkit/flutter.svg
+- assets/toolkit/git.svg
+- assets/toolkit/google-cloud.svg
+- assets/toolkit/html.svg
+- assets/toolkit/java.svg
+- assets/toolkit/javascript.svg
+- assets/toolkit/linux.svg
+- assets/toolkit/postgresql.svg
+- assets/toolkit/python.svg
+- assets/toolkit/raspberry-pi.svg
+- assets/toolkit/react-native.svg
+- assets/toolkit/react.svg
+- assets/toolkit/typescript.svg
 - docs/preview-before.png
 - docs/preview-desktop.png
 - docs/preview-mobile.png

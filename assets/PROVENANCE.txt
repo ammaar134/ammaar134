@@ -38,3 +38,6 @@ Equal-size SVG preview components in assets/previews embed byte-identical origin
 Claude Code, GitHub Copilot and n8n icons: Devicon originals (MIT). A missing SVG namespace is supplied for standalone Copilot rendering.
 Codex and ChatGPT/OpenAI avatars: https://github.com/lobehub/lobe-icons/tree/master/packages/static-avatar/avatars (MIT); license in icons/LOBE-LICENSE.
 The original author quote is restored verbatim from profile commit 06c229b661cfbdc31267a48fb5788f9a0f58a821.
+
+Revision 4, 2026-10-27
+Core-toolkit components: original SVG label layouts embedding existing licensed icons without changing their paths or pixels. Text labels are repeated in image alt text and in the full technology section. React Native shares the React mark with its own explicit label. PostgreSQL represents the requested SQL/database experience in the overview. No external image service is required.

@@ -12,6 +12,38 @@ I'm a software developer with a computer systems engineering background, based i
 
 [Selected work](#selected-work) · [Technology & experience](#what-i-work-with) · [Connect on LinkedIn](https://www.linkedin.com/in/ammaar-marzook-nz/)
 
+## Core toolkit
+
+<p>
+<img src="assets/toolkit/typescript.svg" width="114" height="34" alt="TypeScript" />
+<img src="assets/toolkit/javascript.svg" width="113" height="34" alt="JavaScript" />
+<img src="assets/toolkit/python.svg" width="91" height="34" alt="Python" />
+<img src="assets/toolkit/java.svg" width="77" height="34" alt="Java" />
+<img src="assets/toolkit/dart.svg" width="74" height="34" alt="Dart" />
+<img src="assets/toolkit/c.svg" width="58" height="34" alt="C" />
+<img src="assets/toolkit/cplusplus.svg" width="74" height="34" alt="C++" />
+<img src="assets/toolkit/html.svg" width="86" height="34" alt="HTML" />
+<img src="assets/toolkit/css.svg" width="76" height="34" alt="CSS" />
+<img src="assets/toolkit/react.svg" width="84" height="34" alt="React" />
+<img src="assets/toolkit/react-native.svg" width="128" height="34" alt="React Native" />
+<img src="assets/toolkit/flutter.svg" width="87" height="34" alt="Flutter" />
+</p>
+
+<p>
+<img src="assets/toolkit/aws.svg" width="79" height="34" alt="AWS" />
+<img src="assets/toolkit/firebase.svg" width="102" height="34" alt="Firebase" />
+<img src="assets/toolkit/google-cloud.svg" width="133" height="34" alt="Google Cloud" />
+<img src="assets/toolkit/postgresql.svg" width="124" height="34" alt="PostgreSQL" />
+<img src="assets/toolkit/docker.svg" width="92" height="34" alt="Docker" />
+<img src="assets/toolkit/linux.svg" width="81" height="34" alt="Linux" />
+<img src="assets/toolkit/git.svg" width="65" height="34" alt="Git" />
+<img src="assets/toolkit/raspberry-pi.svg" width="128" height="34" alt="Raspberry Pi" />
+<img src="assets/toolkit/claude-code.svg" width="129" height="34" alt="Claude Code" />
+<img src="assets/toolkit/codex.svg" width="88" height="34" alt="Codex" />
+</p>
+
+These are the main technologies I work with. [See the full toolkit and experience below ↓](#what-i-work-with)
+
 ## Selected work
 
 A few things I've built. **Start with the lab**, or explore whichever catches your eye.
@@ -88,17 +120,14 @@ Focus modes and distraction filters adapt to YouTube's in-page navigation. Prefe
 
 Across professional work, personal projects and engineering coursework. The projects above are a selection, not the full toolkit.
 
-<details open>
-<summary><strong>Languages & foundations</strong></summary>
+### Languages & foundations
 
 <p><img src="assets/icons/typescript.svg" width="34" height="34" alt="TypeScript" title="TypeScript" /> &nbsp; <img src="assets/icons/javascript.svg" width="34" height="34" alt="JavaScript" title="JavaScript" /> &nbsp; <img src="assets/icons/python.svg" width="34" height="34" alt="Python" title="Python" /> &nbsp; <img src="assets/icons/java.svg" width="34" height="34" alt="Java" title="Java" /> &nbsp; <img src="assets/icons/dart.svg" width="34" height="34" alt="Dart" title="Dart" /> &nbsp; <img src="assets/icons/c.svg" width="34" height="34" alt="C" title="C" /> &nbsp; <img src="assets/icons/cplusplus.svg" width="34" height="34" alt="C++" title="C++" /> &nbsp; <img src="assets/icons/csharp.svg" width="34" height="34" alt="C#" title="C#" /> &nbsp; <img src="assets/icons/html5.svg" width="34" height="34" alt="HTML" title="HTML" /> &nbsp; <img src="assets/icons/css3.svg" width="34" height="34" alt="CSS" title="CSS" /> &nbsp; <img src="assets/icons/php.svg" width="34" height="34" alt="PHP" title="PHP" /> &nbsp; </p>
 
 TypeScript · JavaScript · Python · Java · Dart · C · C++ · C# · HTML · CSS · SQL · PHP · Solidity
 
-</details>
 
-<details>
-<summary><strong>Web & mobile</strong></summary>
+### Web & mobile
 
 <p><img src="assets/icons/react.svg" width="34" height="34" alt="React and React Native" title="React and React Native" /> &nbsp; <img src="assets/icons/flutter.svg" width="34" height="34" alt="Flutter" title="Flutter" /> &nbsp; <img src="assets/icons/fastapi.svg" width="34" height="34" alt="FastAPI" title="FastAPI" /> &nbsp; <img src="assets/icons/dotnetcore.svg" width="34" height="34" alt="ASP.NET Core" title="ASP.NET Core" /> &nbsp; <img src="assets/icons/vuejs.svg" width="34" height="34" alt="Vue" title="Vue" /> &nbsp; <img src="assets/icons/angular.svg" width="34" height="34" alt="Angular" title="Angular" /></p>
 
@@ -106,19 +135,15 @@ React · React Native · Flutter · FastAPI · ASP.NET Core / Identity · EF Cor
 
 Also used: Vue · Angular · Shopify integrations.
 
-</details>
 
-<details>
-<summary><strong>Cloud, data & delivery</strong></summary>
+### Cloud, data & delivery
 
 <p><img src="assets/icons/amazonwebservices.svg" width="34" height="34" alt="AWS" title="AWS" /> &nbsp; <img src="assets/icons/firebase.svg" width="34" height="34" alt="Firebase" title="Firebase" /> &nbsp; <img src="assets/icons/googlecloud.svg" width="34" height="34" alt="Google Cloud" title="Google Cloud" /> &nbsp; <img src="assets/icons/supabase.svg" width="34" height="34" alt="Supabase" title="Supabase" /> &nbsp; <img src="assets/icons/postgresql.svg" width="34" height="34" alt="PostgreSQL" title="PostgreSQL" /> &nbsp; <img src="assets/icons/docker.svg" width="34" height="34" alt="Docker" title="Docker" /> &nbsp; <img src="assets/icons/linux.svg" width="34" height="34" alt="Linux" title="Linux" /> &nbsp; <img src="assets/icons/githubactions.svg" width="34" height="34" alt="GitHub Actions" title="GitHub Actions" /></p>
 
 AWS · Firebase / Firestore / Cloud Functions · Google Cloud · Supabase · PostgreSQL · Neon · Docker · Linux · GitHub Actions
 
-</details>
 
-<details>
-<summary><strong>Engineering & design tools</strong></summary>
+### Engineering & design tools
 
 <p><img src="assets/icons/git.svg" width="34" height="34" alt="Git" title="Git" /> &nbsp; <img src="assets/icons/playwright.svg" width="34" height="34" alt="Playwright" title="Playwright" /> &nbsp; <img src="assets/icons/vscode.svg" width="34" height="34" alt="VS Code" title="VS Code" /> &nbsp; <img src="assets/icons/androidstudio.svg" width="34" height="34" alt="Android Studio" title="Android Studio" /> &nbsp; <img src="assets/icons/figma.svg" width="34" height="34" alt="Figma" title="Figma" /> &nbsp; <img src="assets/icons/jira.svg" width="34" height="34" alt="Jira" title="Jira" /></p>
 
@@ -126,10 +151,8 @@ Git · Playwright · VS Code · Android Studio · Figma · Jira
 
 Unit testing · API integration · debugging · CI workflows
 
-</details>
 
-<details>
-<summary><strong>Firmware & systems</strong></summary>
+### Firmware & systems
 
 <p><img src="assets/icons/c.svg" width="34" height="34" alt="C" /> &nbsp; <img src="assets/icons/cplusplus.svg" width="34" height="34" alt="C++" /> &nbsp; <img src="assets/icons/python.svg" width="34" height="34" alt="Python" /> &nbsp; <img src="assets/icons/raspberrypi.svg" width="34" height="34" alt="Raspberry Pi" /></p>
 
@@ -137,10 +160,8 @@ C / C++ · Raspberry Pi Pico W · PSoC 5 / PSoC Creator · GPIO / ADC · sensors
 
 Hands-on experience through engineering coursework and device projects. The featured lab demonstrates simulation software.
 
-</details>
 
-<details>
-<summary><strong>AI-assisted development</strong></summary>
+### AI-assisted development
 
 <p><img src="assets/icons/claudecode.svg" width="38" height="38" alt="Claude Code" title="Claude Code" /> &nbsp; <img src="assets/icons/codex.webp" width="38" height="38" alt="Codex" title="Codex" /> &nbsp; <img src="assets/icons/githubcopilot.svg" width="38" height="38" alt="GitHub Copilot" title="GitHub Copilot" /> &nbsp; <img src="assets/icons/openai.webp" width="38" height="38" alt="ChatGPT" title="ChatGPT" /> &nbsp; <img src="assets/icons/n8n.svg" width="38" height="38" alt="n8n" title="n8n" /></p>
 
@@ -148,7 +169,6 @@ Claude Code · Codex · GitHub Copilot · ChatGPT · Cursor · n8n
 
 I work with LLMs and generative AI to accelerate development, from exploring an approach to writing and debugging code. AI-assisted development is part of how I work.
 
-</details>
 
 ## Let's connect
 

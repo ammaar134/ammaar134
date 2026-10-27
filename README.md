@@ -15,31 +15,30 @@ I'm a software developer with a computer systems engineering background, based i
 ## Core toolkit
 
 <p>
+<img src="assets/toolkit/flutter.svg" width="87" height="34" alt="Flutter" />
+<img src="assets/toolkit/react-family.svg" width="176" height="34" alt="React / React Native" />
+<img src="assets/toolkit/python.svg" width="91" height="34" alt="Python" />
 <img src="assets/toolkit/typescript.svg" width="114" height="34" alt="TypeScript" />
 <img src="assets/toolkit/javascript.svg" width="113" height="34" alt="JavaScript" />
-<img src="assets/toolkit/python.svg" width="91" height="34" alt="Python" />
-<img src="assets/toolkit/java.svg" width="77" height="34" alt="Java" />
-<img src="assets/toolkit/dart.svg" width="74" height="34" alt="Dart" />
 <img src="assets/toolkit/c.svg" width="58" height="34" alt="C" />
 <img src="assets/toolkit/cplusplus.svg" width="74" height="34" alt="C++" />
+<img src="assets/toolkit/java.svg" width="77" height="34" alt="Java" />
+<img src="assets/toolkit/dart.svg" width="74" height="34" alt="Dart" />
 <img src="assets/toolkit/html.svg" width="86" height="34" alt="HTML" />
 <img src="assets/toolkit/css.svg" width="76" height="34" alt="CSS" />
-<img src="assets/toolkit/react.svg" width="84" height="34" alt="React" />
-<img src="assets/toolkit/react-native.svg" width="128" height="34" alt="React Native" />
-<img src="assets/toolkit/flutter.svg" width="87" height="34" alt="Flutter" />
 </p>
 
 <p>
 <img src="assets/toolkit/aws.svg" width="79" height="34" alt="AWS" />
 <img src="assets/toolkit/firebase.svg" width="102" height="34" alt="Firebase" />
 <img src="assets/toolkit/google-cloud.svg" width="133" height="34" alt="Google Cloud" />
+<img src="assets/toolkit/claude-code.svg" width="129" height="34" alt="Claude Code" />
+<img src="assets/toolkit/codex.svg" width="88" height="34" alt="Codex" />
 <img src="assets/toolkit/postgresql.svg" width="124" height="34" alt="PostgreSQL" />
 <img src="assets/toolkit/docker.svg" width="92" height="34" alt="Docker" />
 <img src="assets/toolkit/linux.svg" width="81" height="34" alt="Linux" />
 <img src="assets/toolkit/git.svg" width="65" height="34" alt="Git" />
 <img src="assets/toolkit/raspberry-pi.svg" width="128" height="34" alt="Raspberry Pi" />
-<img src="assets/toolkit/claude-code.svg" width="129" height="34" alt="Claude Code" />
-<img src="assets/toolkit/codex.svg" width="88" height="34" alt="Codex" />
 </p>
 
 These are the main technologies I work with. [See the full toolkit and experience below ↓](#what-i-work-with)
